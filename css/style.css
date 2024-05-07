@@ -6,6 +6,10 @@ font-family: Helvetica, sans-serif;
 font-size: 100%;
 color: white;
 background: #62a2d8;
+background-image: url("../img/players.svg");
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: 75% 90%;
 }
 a:link,a:active,a:visited {
 color: #ccc;
@@ -36,7 +40,7 @@ text-align: center;
 padding: 0.5em;
 }
 #header {
-background: #4692cf;
+/* background: #4692cf; */
 /* background-image: linear-gradient(#62a2d8, #bbd8ee); */
 width: 100%;
 display: flex;
@@ -57,7 +61,7 @@ font-weight: 100;
 #header div {
 }
 #header img {
-padding: 12px 24px
+padding: 12px 24px 12px 0px
 }
 
 #navbar {
@@ -96,7 +100,7 @@ padding: .25em;
 }
 
 tbody tr:nth-child(odd){
-  background-color: #4692cf;
+  /*background-color: #4692cf;*/
   color: white;
 }
 li {
