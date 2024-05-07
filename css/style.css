@@ -26,7 +26,7 @@ h3 { font-size: 90%; color: #888; font-style: italic;}
 h4 { font-size: 80%; color: #be1e2d; font-style: italic;}
 
 #content h1::before {
-content: url('../img/separator@0.5x.png');
+content: url('../img/trumpet@0.25x.png');
 display: block;
 padding-bottom: 5px;
 }
