@@ -8,7 +8,7 @@ color: white;
 background: #62a2d8;
 }
 a:link,a:active,a:visited {
-color: #333;
+color: #ccc;
 text-decoration: none;
 }
 
@@ -22,7 +22,7 @@ h3 { font-size: 90%; color: #888; font-style: italic;}
 h4 { font-size: 80%; color: #be1e2d; font-style: italic;}
 
 #content h1::before {
-content: url('../img/separator.png');
+content: url('../img/separator@0.5x.png');
 display: block;
 padding-bottom: 5px;
 }
@@ -36,18 +36,20 @@ text-align: center;
 padding: 0.5em;
 }
 #header {
+background: #4692cf;
+/* background-image: linear-gradient(#62a2d8, #bbd8ee); */
 width: 100%;
 display: flex;
 align-items: center;
 }
 #header h1 {
-color: black;
+color: white;
 font-weight: bold;
 font-size: 300%;
 padding: 0;
 }
 #header h2 {
-color: white;
+color: #ccc;
 padding: 0;
 font-size: 100%;
 font-weight: 100;
@@ -68,7 +70,7 @@ padding: 0.5em;
 #content {
 padding: 0;
 font-size: 100%;
-color: black;
+color: white;
 }
 #content p {
 padding: 0.5em 0;
@@ -94,8 +96,8 @@ padding: .25em;
 }
 
 tbody tr:nth-child(odd){
-  background-color: #bbd8ee;
-  color: black;
+  background-color: #4692cf;
+  color: white;
 }
 li {
 margin-left: 3em;
